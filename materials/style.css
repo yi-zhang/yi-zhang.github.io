@@ -1,0 +1,124 @@
+body {
+  background-color: #eee;
+}
+
+header {
+  background-color: #000;
+  height: 110px;
+}
+
+header a, header a:hover, header a:visited {
+  font-size: 24px;
+  color: #fff;
+  position: absolute;
+  top: 20px;
+  left: 35px;
+  font-weight: bold;
+}
+
+#header-bottom {
+  width: 100%;
+  background-color: #779CA9;
+  padding: 5px;
+  color: #fff;
+  margin-top: -15px;
+  padding-left: 35px;
+}
+
+#header-bottom a, #header-bottom a:visited, #header-bottom a:hover {
+  color: #fff;
+}
+
+footer {
+  font-size: 10px;
+  text-align: center;
+  margin-top: 25px;
+}
+
+#site-head {
+  text-align: center;
+  width: 100%;
+}
+
+#abstract {
+}
+
+#video {
+  text-align: center;
+}
+
+#coming-soon {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.author {
+  width: 10%;
+  display: inline;
+  margin-left: 12px;
+  margin-right: 12px;
+}
+
+.inst {
+  width: 10%;
+  display: inline;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.download {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+
+img.thumb {
+  border: 10px solid #eee;
+}
+
+img.thumb.active {
+  border: 10px solid #ccc;
+}
+
+img.paper-thumbnail {
+  width: 150px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+a.image-set {
+  text-decoration: none;
+  color: inherit;
+}
+
+#homepage div.row {
+  padding: 0;
+}
+
+div.row {
+  padding: 15px 1px 4px 1px;
+}
+
+.caption {
+  text-align: center;
+}
+
+.row {
+  margin-bottom: 15px;
+}
+
+.bigImage h1 {
+  text-align: center;
+}
