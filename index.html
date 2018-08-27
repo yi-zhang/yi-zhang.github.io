@@ -21,13 +21,13 @@
   <body>
 
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-    <a class="navbar-brand" href="HOME-anchor">Yi's Homepage</a>
+    <a class="navbar-brand" href="#HOME-anchor">Yi's Homepage</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav">
-        <a class="nav-item nav-link" href="HOME-anchor">About me</a>
+        <a class="nav-item nav-link" href="#HOME-anchor">About me</a>
         <a class="nav-item nav-link" href="#Publications-anchor">Publications</a>
         <a class="nav-item nav-link" href="#Projects-anchor">Projects</a>
       </div>
@@ -40,7 +40,7 @@
     <a class="anchor" id="HOME-anchor"></a>
 		<section id="HOME">
 			<div class="page-header">
-				<h1>Yi Zhang &nbsp<small>   Ph.D. Candidate</small></h1>
+                <h1>Yi Zhang &nbsp<small><font color="gray">  Ph.D. Candidate</font></small></h1>
 			</div>
 
 			<div class="row">
@@ -64,7 +64,7 @@
 				</div>
 
                 <div class="col-9">
-                    <p>I am a Ph.D. student at the <a href="https://bioengineering.illinois.edu" target="_blank">Department of Bioengineering</a> working in the <a href="http://song.igb.illinois.edu" target="_blank">Computational Biology Group</a> and the <a href="http://igb.illinois.edu/" target="_blank">Carl R. Woese Institute for Genomic Biology</a>, at <a href="http://illinois.edu/" target="_blank">University of Illinois at Urbana-Champaign</a>. My doctoral research has been focusing on developing computational and statistical learning methods for analyzing and understanding large-scale biomedical data, with a particular . My research interest. My hobbies.</p>
+                    <p>I am a Ph.D. student at the <a href="https://bioengineering.illinois.edu" target="_blank">Department of Bioengineering</a> working in the <a href="http://song.igb.illinois.edu" target="_blank">Computational Biology Group</a> and the <a href="http://igb.illinois.edu/" target="_blank">Carl R. Woese Institute for Genomic Biology</a>, at <a href="http://illinois.edu/" target="_blank">University of Illinois at Urbana-Champaign</a>. I have been developing computational biology and statistical learning methods for analyzing and understanding large-scale biomedical data, with a focus on establishing links from human genetic variants to disease phenotypes like cancer. My research interests fall in genetics/epigenetics of diseases like cancers, developing statistical and machine learning methods for biomedical big data analysis, and so on. For fun, I enjoy hiking, music and wildlife photographing.</p>
                     <br>
                     <div class="page-header">
                         <p><h3> Education</h3></p>
@@ -174,9 +174,9 @@
            <div class="row align-items-center">
            <div class='col-6 text-center'><img src="materials/web_pics.001.png" width="600px" class="img-fluid" alt="Responsive image"></div>
            <div class='col-6'>
-             <h4>Computational methods for interpretation of cancer-associated genetic variants.</h4>
-            <p>Previous genome-wide association studies (GWAS) have identified common genetic variants that modulate cancer susceptibility, with their causative mechanisms missing. We developed computational methods for identifying functional regulatory variants associated with cancer and their target genes, by combining analyses of expression quantitative trait loci (eQTL), a modified version of allele-specific expression (ASE) that systematically utilizes haplotype information, transcription factor (TF) binding preference, and epigenetic information. Application of our method to a breast cancer susceptibility region in 5p12 demonstrates that the risk allele rs4415084-T correlates with higher expression levels of the protein-coding gene MRPS30 and lncRNA RP11-53O19.1. We proposed a SNP, in linkage disequilibrium (LD) with the GWAS SNP, to be the predicted functional SNP modulating GATA3 binding activity. Our computational framework provides an effective means to integrate GWAS results with high-throughput genomic and epigenomic data and can be extended to facilitate rapid functional characterization of other genetic variants modulating cancer susceptibility.<br>
-                [ <a href="http://cancerres.aacrjournals.org/content/78/7/1579.long">Paper</a> ] &nbsp;</p>
+               <strong>Computational methods for interpretation of cancer-associated genetic variants.</strong> [ <a href="http://cancerres.aacrjournals.org/content/78/7/1579.long">Paper</a> ]
+               <p>Previous genome-wide association studies (GWAS) have identified common genetic variants that modulate cancer susceptibility, with their causative mechanisms missing. We have developed computational methods for functional interpretation of variants associated with cancer, by combining analyses of expression quantitative trait loci (eQTL), a modified version of allele-specific expression (ASE) that systematically utilizes haplotype information, transcription factor (TF) binding preference, and epigenetic information. Databases/techniques useful in this study are: TCGA, ENCODE, GTEx, Roadmap genomics, TF motif databases, genotyping array, RNA-seq, ChIP-seq, ChIA-PET, Hi-C, <em>etc.</em>. Application of our integrative methods to a breast cancer susceptibility region shows that a SNP, linked to a GWAS SNP, modulates GATA3 binding activity and in turn regulates the gene MRPS30 and lncRNA RP11-53O19.1. Our computational framework provides an effective means to integrate GWAS results with high-throughput genomic and epigenomic data. <br>We are currently working on extending the analysis to other variants, as well as applying machine learning methods to reveal genotypic-phenotypic relationship in context of cancer.<br>
+               </p>
            </div>
            </div>
            <br>
@@ -184,10 +184,10 @@
            <div class="row align-items-center">
            <div class='col-6 text-center'><img src="materials/web_pics.002.png" width="600px" class="img-fluid" alt="Responsive image"></div>
            <div class='col-6'>
-             <h4>SequencEnG: an Interactive Knowledge Base of Sequencing Techniques.</h4>
-            <p>Next-generation sequencing (NGS) techniques are revolutionizing biomedical research by providing powerful methods for generating genomic and epigenomic profiles. However, a neat and barrier-free learning resource is lacking. We have developed an interactive online educational resource called SequencEnG (acronym for <strong><u>Sequenc</u></strong>ing Techniques <strong><u>En</u></strong>gine for <strong><u>G</u></strong>enomics) to provide a tree-structured knowledge base of 71 different sequencing techniques and step-by-step NGS data analysis pipelines comparing popular tools. SequencEnG is part of the project KnowEnG (Knowledge Engine for Genomics). I wish I could have a resource like this when I first entered bioinformatics!<br>
-                [ <a href="https://www.biorxiv.org/content/early/2018/07/08/319079">Paper</a> ] &nbsp;
-                [ <a href="education.knoweng.org/sequenceng">SequencEnG page</a> ] &nbsp;</p>
+               <strong>SequencEnG: an Interactive Knowledge Base of Sequencing Techniques.</strong> [ <a href="https://www.biorxiv.org/content/early/2018/07/08/319079">Paper</a> ] &nbsp;  [ <a href="education.knoweng.org/sequenceng">SequencEnG page</a> ]&nbsp;
+               <p>Next-generation sequencing (NGS) techniques are revolutionizing biomedical research by providing powerful methods for generating genomic and epigenomic profiles. However, a neat and barrier-free learning resource is lacking. We have developed an interactive online educational resource called SequencEnG (acronym for <strong><u>Sequenc</u></strong>ing Techniques <strong><u>En</u></strong>gine for <strong><u>G</u></strong>enomics) to provide a tree-structured knowledge base of <strong>71</strong> different sequencing techniques and step-by-step NGS data analysis pipelines comparing popular tools. SequencEnG is part of the project KnowEnG (Knowledge Engine for Genomics). I wish I could have a resource like this when I first entered bioinformatics :D<br>
+               Update 2018-08: SequencEnG has ~3500 users in 3 months!
+               </p>
            </div>
            </div>
            <br>
@@ -195,11 +195,10 @@
            <div class="row align-items-center">
            <div class='col-6 text-center'><img src="materials/web_pics.003.png" width="600px" class="img-fluid" alt="Responsive image"></div>
            <div class='col-6'>
-             <h4>ClusterEnG</h4>
+               <strong>ClusterEnG: clustering and visualizing high-dimensional data.</strong><br> [ <a href="https://peerj.com/articles/cs-155/">Paper</a> ] &nbsp;  [ <a href="education.knoweng.org/clustereng">ClusterEnG page</a> ]&nbsp;
             <p>We have developed ClusterEnG (acronym for <u>Cluster</u>ing <u>En</u>gine for <u>G</u>enomics) to provide a web resource for online clustering analysis and interactive visualizations. ClusterEnG also serves as a barrier-free learning online resource of clustering algorithms with a focus on biomedical data. I have created cool visuliazations of clustering and dimensional reduction results for better understanding of data structure in an intuitive manner. 
-                               <br>
-           [ <a href="https://peerj.com/articles/cs-155/">Paper</a> ] &nbsp;
-           [ <a href="education.knoweng.org/clustereng">ClusterEnG page</a> ]&nbsp;</p>
+            <br>
+            </p>
            </div>
            </div>
            <br>
@@ -234,22 +233,27 @@
 		<section id="Courses">
         <div class="page-header"><h3>Related Courses</h3></div>
         <div class="row">
-        <div class="col-8">
+        <div class="col-10">
             <table class="table table-bordered">
             <tbody>
             <tr>
-                    <td>Computational Cancer Biology</td>
-                    <td>Statistical Learning</td>
+                    <td>Mathematical Statistics</td>
                     <td>Machine Learning</td>
+                    <td>Computational Cancer Biology</td>
                 </tr>
             <tr>
-                    <td>Mathematical Statistics</td>
-                    <td>Applied Stochastic Processes</td>
+                    <td>Stochastic Processes</td>
+                    <td>Statistical Learning</td>
                     <td>Statistical Data Analysis in Physics</td>
             </tr>
             </tbody>
-            </table>
-
+        </table>
+        <br>
+        <h5>Course Projects</h5>
+        <em>Statistical</em> Learning: Prediction of Movie votes and campus shooting with SVM and gradient boosting models.<br>
+        <em>Machine Learning</em>: Classification of NGS technique articles using natural language processing and SVM models.<br>
+        <em>Stochastic Processes</em>: Segmentation of copy number using HMM based on genotype data in cancer cells.<br>
+        <em>Statistical Data Analysis in Physics</em>: A cross-entropy method for graph clustering and Cheeger constant estimation.<br>
         </div>
         </div>
         </section>
