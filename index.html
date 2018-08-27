@@ -8,12 +8,10 @@
     <meta name="author" content="Yi">
 	<meta name="keywords" content="Yi Zhang,  computational biology, bioinformatics, cancer genetics, UIUC, USTC, bioengineering, big data, biomodical, machine learning, statistical learning">
     <!-- Le styles -->
-    <link href="materials/bootstrap.css" rel="stylesheet">
-    <link href="materials/bootstrap-responsive.css" rel="stylesheet">
-    <script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
-
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="materials/additional.css" rel="stylesheet">
     <style>
-      body {
+  body {
         padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
       }
     </style>
@@ -21,31 +19,21 @@
 
   <body>
 
-    <div class="navbar navbar-inverse navbar-fixed-top">
-      <div class="navbar-inner">
-        <div class="container">
-          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </a>
-          <div class="nav-collapse collapse">
-            <ul class="nav">
-              <li class="active"><a href="#HOME-anchor"><strong>Home</strong></a></li>
-              <li><a href="#HOME-anchor"><strong>About Me</strong></a></li>
-              <li><a href="#Publications-anchor"><strong>Publications</strong></a></li>
-              <li><a href="#Projects-anchor"><strong>Projects</strong></a></li>
-              <!-- <li><a href="blog_index.html"><strong>Blog</strong></a></li>
-              <li class="active"><a href="#"><strong>Your Research Group</strong></a></li>
-              -->
-          </ul>
-          <!--
-          <a href="https://illinois.edu/" target="_blank"><img src="materials/uiuc-logo.png" align="right" width="20" vspace="6"></a>
-          -->
-          </div><!--/.nav-collapse -->
-        </div>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <a class="navbar-brand" href="HOME-anchor">Yi's Homepage</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-item nav-link" href="HOME-anchor">About me</a>
+        <a class="nav-item nav-link" href="#Publications-anchor">Publications</a>
+        <a class="nav-item nav-link" href="#Projects-anchor">Projects</a>
       </div>
     </div>
+  </nav>
+
+
     <div class="container">
 
     <a class="anchor" id="HOME-anchor"></a>
@@ -54,12 +42,11 @@
 				<h1>Yi Zhang &nbsp<small>   Ph.D. Candidate</small></h1>
 			</div>
 
-			<div class="row-fluid">
+			<div class="row">
 
-				<div class="span3">
-					<div class="thumbnail">
-						<a href = '22'><img src="materials/your_photo.png"></a>
-					</div>
+				<div class="col-3">
+          <img src="materials/your_photo.png" alt="Responsive image" class="img-thumbnail">
+	
 
                     <address>
                         <br>
@@ -75,14 +62,14 @@
 
 				</div>
 
-                <div class="span7">
+                <div class="col-9">
                     <p>I am a Ph.D. student at the <a href="https://bioengineering.illinois.edu" target="_blank">Department of Bioengineering</a> working in the <a href="http://song.igb.illinois.edu" target="_blank">Computational Biology Group</a> and the <a href="http://igb.illinois.edu/" target="_blank">Carl R. Woese Institute for Genomic Biology</a>, at <a href="http://illinois.edu/" target="_blank">University of Illinois at Urbana-Champaign</a>. My doctoral research has been focusing on developing computational and statistical learning methods for analyzing and understanding large-scale biomedical data, with a particular . My research interest. My hobbies.</p>
                     <br>
                     <div class="page-header">
                         <p><h3> Education</h3></p>
                     </div>
                     <p><strong>Ph.D. Candidate</strong>, Aug. 2014 - May 2019 (expected)</p>
-                    <div class="details">
+                
                     <ul>
                     <li>
                         Department of Bioengineering, University of Illinois at Urbana-Champaign         
@@ -97,7 +84,8 @@
                     </ul>
 
                     <p><strong>Bachelor of Science, Biosciences</strong>, Sep. 2010 - Jul. 2014</p>
-                    <div class="details">
+                   
+                    
                     <ul>
                     <li>
                         Life Sciences Talent Program, University of Science and Technology of China         
@@ -108,7 +96,7 @@
                 </ul>
 
 				</div>
-			</div>
+			
 		</section>
 		<br>
 
@@ -118,8 +106,8 @@
 				<h3>Publications</h3>
             </div>
 
-			<div class="row-fluid">
-                <div class="span8">
+			<div class="row">
+                <div class="col-8">
                     <ol>
                         <li>
                         <strong><u>Y. Zhang*</u></strong>, M. Manjunath*, S. Zhang, D. Chasman, S. Roy, and J.S. Song. (*co-first authors). "<a href="http://cancerres.aacrjournals.org/content/78/7/1579.long" target="_blank">Integrative genomic analysis predicts causative cis-regulatory mechanisms of the breast cancer-associated genetic variant rs4415084.</a>" <strong><em>Cancer Research</em></strong>, 78(7), 1579-1591, (2018). 
@@ -136,7 +124,7 @@
                         </li>
                     </ol>
                 </div>
-                <div class="span2" >
+                <div class="col-2" >
                     <!-- altmetric sequenceng -->
                 <div class='altmetric-embed' data-badge-type='donut' data-doi="10.1158/0008-5472.CAN-17-3486"></div>
                     <!-- altmetric cancerres -->
@@ -154,8 +142,8 @@
 				<h3>Poster Presentations</h3>
             </div>
 
-			<div class="row-fluid">
-                <div class="span8">
+			<div class="row">
+                <div class="col-8">
                     <ol>
                         <li>
                         <strong><u>Y. Zhang</u></strong>, M. Manjunath, S. Zhang, D. Chasman, S. Roy, & J.S. Song. "Abstract 1220: Integrative genomic analysis discovers the causative regulatory mechanisms of a breast cancer-associated genetic variant." <em><strong>AACR Annual Meeting</strong>, 2018 Apr. 14-18, Chicago, IL</em>, (2018). 
@@ -182,8 +170,8 @@
 				<h3>Projects</h3>
 			</div>
 
-			<div class="row-fluid">
-				<div class="span10">
+			<div class="row">
+				<div class="col-10">
 
 					<div id="TabContent" class="tab-content">
 						<div class="tab-pane fade in active" id="topic">
@@ -283,8 +271,8 @@
 
 		<section id="Courses">
         <div class="page-header"><h3>Related Courses</h3></div>
-        <div class="row-fluid">
-        <div class="span8">
+        <div class="row">
+        <div class="col-8">
             <table class="table table-bordered">
             <tbody>
             <tr>
